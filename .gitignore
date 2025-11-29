@@ -1,0 +1,9 @@
+.idea
+__pycache__/
+images/
+.DS_Store
+venv
+runs/
+config/
+
+cluster_summary.csv

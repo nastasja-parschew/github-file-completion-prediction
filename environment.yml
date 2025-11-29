@@ -1,0 +1,40 @@
+name: completiontimes
+
+channels:
+  - rapidsai
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - numpy=1.26.4
+  - scipy
+
+  - cuml
+  - cupy
+  - ocl-icd-system
+
+  - lightgbm
+  - xgboost
+  - mlxtend
+  - shap
+  - tslearn
+  - kneed
+
+  - aiohttp
+  - motor
+  - backoff
+  - requests
+
+  - pyyaml
+  - python-dotenv
+  - optuna
+  - tqdm
+
+  - matplotlib
+  - seaborn
+
+  - pip
+  - pip:
+      - holidays==0.70
